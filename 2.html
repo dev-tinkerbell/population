@@ -5,15 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>공공 데이터 및 기계학습을 이용한 대학 홍보 전략</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/6b813c3207.js" crossorigin="anonymous"></script>
+    <script src="./index.js" defer></script>
   </head>
   <body class="sub">
     <header>
-      <a href="./">HOME</a>
-      <h2>지역별 인구수</h2>
+      <a href="./"><i class="fa-solid fa-house"></i></a>
+      <h1>지역별 인구수</h1>
+      <button class="open">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav>
+        <button class="close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul>
+          <li><a href="1.html">고등학교 수</a></li>
+          <li><a href="2.html">지역별 인구수</a></li>
+          <li><a href="3.html">순이동 인구수</a></li>
+          <li><a href="4.html">기계학습</a></li>
+          <li><a href="5.html">결론</a></li>
+        </ul>
+      </nav>
     </header>
     <section>
-      <h3>2005-2023 전체 지역 인구수 변화</h3>
-      <img src="./image/2-1.png" />
+      <div id="title-1-1">
+        <div class="sub-card-wrap">
+          <h3>2005-2023 전체 지역 인구수 변화</h3>
+          <img src="./image/2-1.png" />
+        </div>
+      </div>
     </section>
   </body>
 </html>
