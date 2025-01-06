@@ -97,6 +97,10 @@ header button {
   color: #0e141b;
 }
 
+header .close {
+  float: right;
+}
+
 /* main */
 #main {
   position: relative;
@@ -217,7 +221,7 @@ th {
 }
 
 tr.selected {
-  background-color: #99e6e8;
+  background-color: #abe7e9;
 }
 
 .custom-list {
@@ -227,7 +231,7 @@ tr.selected {
 }
 
 .custom-list li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   line-height: 1.6;
   font-size: 16px;
   color: #333;
