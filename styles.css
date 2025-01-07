@@ -17,12 +17,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
 }
 
@@ -164,7 +165,6 @@ a {
 /* sub */
 body.sub {
   justify-content: flex-start;
-  padding-bottom: 40px;
 }
 
 .sub section {
@@ -235,4 +235,15 @@ tr.selected {
   line-height: 1.6;
   font-size: 16px;
   color: #333;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 60px;
+  background-color: #f4f4f4;
+}
+
+footer p {
+  line-height: 1.5;
+  text-align: left;
 }
